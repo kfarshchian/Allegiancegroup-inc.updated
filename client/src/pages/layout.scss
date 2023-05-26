@@ -1,0 +1,50 @@
+#mainBody{
+    margin-top: 100px;
+}
+#logButtons{
+    border: 1px solid black;
+}
+#logButtons:hover{
+    background-color: rgb(236, 236, 236);
+}
+#parallax{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#banner{
+    max-width: 100%;
+    width: 75%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.banner-container {
+    width: 100%; /* Set the desired width of the banner */
+    height: 600px; /* Set the desired height of the banner */
+    overflow: hidden; /* Hide any overflow */
+    // position: relative;
+  }
+  
+  .banner-image {
+    top: -100px;
+    width: 100%; /* Set the width to fill the container */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Crop the image to fit the container */
+    z-index: -5;
+  }
+#deskImg{
+    width: 20%;
+    height: auto;
+}
+#handShake{
+    width: 20%;
+    height: auto;
+}
+#lookAtPC{
+    width: 20%;
+    height: auto;
+}
+#pointOfSale{
+    width: 75%;
+}

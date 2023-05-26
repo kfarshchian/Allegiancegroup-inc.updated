@@ -1,0 +1,19 @@
+.user-menu{
+  background: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0 0 0;
+  overflow: hidden;
+}
+
+.logout-btn{
+  all: unset;
+  font-size: 20px;
+  font-weight: 900;
+}

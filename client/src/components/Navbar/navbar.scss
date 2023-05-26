@@ -1,0 +1,118 @@
+// body{
+//     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+// }
+
+a {
+    // color: black; /* blue colors for links too */
+    text-decoration: none; /* no underline */
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.02857em;
+    opacity: 1 !important;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 9px 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 1px solid transparent;
+}
+a:hover{
+    background-color: rgba(25, 118, 210, 0.04); 
+}
+a:active{
+   
+}
+
+.nav-logout{
+    all: unset;
+    cursor: pointer;
+    margin: 0 0.5rem 0 0;
+    color: black;
+    height: 15px;
+    width: 80px;
+    text-align: center;
+    border-radius: 0.5rem;
+    letter-spacing: 0.02857em;
+    opacity: 1 !important;
+    background-color: transparent !important;
+    border-radius: 4px;
+    padding: 9px 8px;
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid transparent;
+    
+}
+.nav-logout:hover{
+    background-color: rgba(25, 118, 210, 0.04) !important; 
+}
+.navbar{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    opacity: 1 !important;
+}
+
+.logo-container,
+.user-links,
+.page-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 48px 0.5rem 0.5rem 0;
+    opacity: 1 !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    border-radius: 4px;
+}
+.page-links{
+    margin: 0 0 0 0.5rem;
+    opacity: 1 !important;
+}
+
+.logo-container{
+    margin: 0 0 0 0.5rem;
+    flex-direction: row;
+
+}
+
+.logo-text{
+    font-size: 1.5rem
+}
+
+
+
+.page-links{
+    flex-grow: 1;
+    margin: 48px 0.5rem 0.5rem 0;
+}
+
+.user-link{
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.logo{
+    height:auto;
+    width: auto;
+    margin: 45px 0.5rem 0.5rem 0;
+}
+
+
+
+@media screen and (max-width: 1123px) {
+    // .logo-container,
+    .user-links,
+    .page-links{
+        display: none;
+    }
+    .logo-container{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 0rem;
+    }
+    .navbar{
+        display: grid;
+        grid-template-columns: 50px auto 50px;
+    }
+}
