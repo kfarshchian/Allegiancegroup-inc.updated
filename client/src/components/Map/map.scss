@@ -1,0 +1,20 @@
+.leaflet-container {
+    width: 400px; 
+    height: 400px;
+  }
+  .info-map {
+    position: absolute;
+    background-color: #c4984f;
+    z-index: 999999 !important;
+    width: 150rem,;
+    left: 54%;
+    top: 2%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 1;
+    color: black;
+    text-shadow: 0px 0px 0px black;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 2px;
+}
