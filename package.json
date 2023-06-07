@@ -25,7 +25,6 @@
     "@mui/material": "^5.13.2",
     "@mui/x-date-pickers": "^6.5.0",
     "axios": "^1.4.0",
-    "cloudinary": "^1.37.0",
     "dayjs": "^1.11.7",
     "dotenv": "^16.0.3",
     "moment": "^2.29.4",
