@@ -3,7 +3,7 @@ import {  Container } from '@mui/material';
 
 
 import meeting from '../logos/meeting2.jpg'
-import zIndex from '@mui/material/styles/zIndex';
+// import zIndex from '@mui/material/styles/zIndex';
 // import handshake from '../logos/handshake.jpg'
 
 function Home() {
