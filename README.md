@@ -19,7 +19,7 @@
 
 ## **Description**
 
-Rebuilding Allegiance Group Inc. website in React.js, Express.js, MongoDB, GraphQL, MUI, and any other dependencies I find beneficial or necessary. The old website uses only HTML and CSS. This is a full rework than a refactor. 
+Rebuilding Allegiance Group Inc. website in React.js, Express.js, MongoDB, GraphQL, MUI, and any other dependencies I find beneficial or necessary. The old website uses only HTML and CSS. This is a full rework.
 
 ## **Tools**
 
@@ -32,7 +32,7 @@ Rebuilding Allegiance Group Inc. website in React.js, Express.js, MongoDB, Graph
 
 ## **Motivation**
 
-I was given a website and told to make it new and improved with updated software. This is my first internship and want to do my best work. 
+I was given a website and told to make it new and improved with updated software. 
 
 ## **Installation**
 
